@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // Todo add a randomize button
+
+    // Todo might add sound functionality later
+
     private fun makeColored(view: View) {
         when (view.id) {
             // Boxes using Color class colors for the background
@@ -44,13 +48,16 @@ class MainActivity : AppCompatActivity() {
             // Boxes Using custom colors in the background
             R.id.red_button -> {
                 box_three_text.setBackgroundResource(R.color.my_red)
-                box_six_text.setBackgroundResource(R.color.my_yellow)
+                box_six_text.setBackgroundResource(android.R.color.holo_orange_dark)
             }
-            R.id.green_button -> {box_five_text.setBackgroundResource(R.color.my_green)
-                box_seven_text.setBackgroundResource(R.color.my_red)}
+            R.id.green_button -> {
+                box_five_text.setBackgroundResource(R.color.my_green)
+                box_seven_text.setBackgroundResource(android.R.color.holo_purple)
+            }
+
             R.id.yellow_button -> {
                 box_four_text.setBackgroundResource(R.color.my_yellow)
-                box_eight_text.set
+                box_eight_text.setBackgroundResource(android.R.color.holo_blue_light)
             }
             R.id.box_two_text -> view.setBackgroundResource(R.color.box_two_custom)
 
