@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="my_red">#E53935</color>
+    <color name="my_green">#00C853</color>
+    <color name="my_yellow">#FFD600</color>
+
+    <color name="bg_color">#E0F2F1</color>
+
+    <color name="box_two_custom">#90A4AE</color>
+</resources>
